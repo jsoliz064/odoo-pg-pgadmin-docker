@@ -15,7 +15,7 @@ docker-compose up -d
 4. Crear db inicial de odoo
 ```
 docker-compose down odoo
-docker-compose run --rm odoo odoo -i base
+docker-compose run --rm -u root odoo odoo -i base
 ctrl + c
 docker-compose restart
 ```
