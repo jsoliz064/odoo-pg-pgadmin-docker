@@ -1,0 +1,6 @@
+/db_data
+/odoo_data/addons
+/odoo_data/config/odoo.conf
+/odoo_data/odoo-web-data
+
+.env
